@@ -14,6 +14,6 @@ export async function GET(request: Request) {
     return NextResponse.json(data)
   } catch (error) {
     console.error("Fees API error:", error)
-    return NextResponse.json({ error: "Internal server error" }, { status: 500 })
+    return NextResponse.json({ error: "Internal server error:" }, { status: 500 })
   }
 }
