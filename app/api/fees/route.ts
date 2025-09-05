@@ -4,7 +4,7 @@ export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url)
 
-    const response = await fetch(`https://swap-api.pump.fun/v1/creators/A9rcLxP9389Ru3xnUmRdTHwLpfCgaJ9pZipUMDphvsTK/fees/total`)
+    const response = await fetch(`https://swap-api.pump.fun/v1/creators/8ZB78wqyEpWPmXdcBbDdC8NRVoXBHpTNX3qBEUtKQeVC/fees/total`)
 
     if (!response.ok) {
       return NextResponse.json({ error: "Failed to fetch fees" }, { status: response.status })
