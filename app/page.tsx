@@ -54,7 +54,7 @@ export default function ShaderShowcase() {
   const [timeLeft, setTimeLeft] = useState<string>("10:00")
   const [fees, setFees] = useState<number>(2.08)
   const [tokenCreationTime, setTokenCreationTime] = useState<number | null>(null)
-  const tokenAddress = "CM4NQqbaJcRE1Q3mQLnb4a4t17trQHqCHWypXhN2pump" // Using the CA from above
+  const tokenAddress = "ECHP5nQPuRHbG6eYbnSmvykZ7TGHfP7ackgvErKepump" // Using the CA from above
 
   useEffect(() => {
     const fetchTokenInfo = async () => {
@@ -228,7 +228,7 @@ export default function ShaderShowcase() {
           </div>
 
           <div className="flex items-center gap-3 font-sora leading-3 text-center mb-0">
-            <div className="text-white/80 text-sm">CA: CM4NQqbaJcRE1Q3mQLnb4a4t17trQHqCHWypXhN2pump</div>
+            <div className="text-white/80 text-sm">CA: ECHP5nQPuRHbG6eYbnSmvykZ7TGHfP7ackgvErKepump</div>
             <div className="flex gap-2">
               <a
                 href="https://oxr.wtf"
