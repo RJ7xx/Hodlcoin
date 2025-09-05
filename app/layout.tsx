@@ -28,7 +28,7 @@ const instrumentSerif = Instrument_Serif({
 })
 
 export const metadata: Metadata = {
-  title: "HODLCOIN",
+  title: "HODL Coin",
   description: "HODL and earn!",
 }
 

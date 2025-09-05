@@ -295,7 +295,7 @@ export default function ShaderShowcase() {
 
             <div className="flex-1 h-[270px] bg-white/5 border-[1.5px] border-white/40 rounded-lg backdrop-blur-md p-4">
               <div className="mb-3">
-                <h3 className="text-white font-semibold text-lg">Hodlcoin</h3>
+                <h3 className="text-white font-semibold text-lg">HODL Coin</h3>
                 <hr className="border-white/30 mt-2" />
               </div>
               <div className="text-white/90 text-sm space-y-3">
